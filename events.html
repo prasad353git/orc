@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Events</title>
+        <style>
+            body,html{text-align:center; background-color:rgb(10, 0, 143); margin:0; overflow-x:hidden; background-image:url('eventsbg.jpg'); background-size:100%;position:center; height:100%;width:100%;}
+            h1{font-size: 100px; color:lavenderblush;}
+            h2{color:chartreuse;}
+            span{cursor:pointer;}
+            .left{float:left;}
+            .none{padding:2%;}
+            .box{background-size:100%; height:100%; width:100%; top:0%; z-index:10; position:absolute; padding:3%; color:white; font-size:20px; background-color:rgba(000,000,000,0.3); box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.0); border-radius:15px;}
+        </style>
+    </head>
+<body>
+    <div class="none"></div>
+    <div class="box">            
+        <span class="left" onclick="closetabs();"> &#10060; </span>
+        <h1>Events</h1>
+        <h2>Birthday Party</h2>
+        <h2>Kitty Party</h2>
+        <h2>Send off Party</h2>
+        <h2>Get Together Party</h2>
+        <br>
+        <h2>Brahmopadesham Event</h2>
+        <h2>Marriage Event</h2>
+        <h2>Naming Ceremony</h2>
+        <h2>wedding Anniversary</h2>
+        <br> 
+        <h2>Death Anniversary</h2>
+        <br>
+        <h2>Cultural Event</h2>
+        <h2>Temple Event</h2>
+        <div class="none"></div> 
+    </div>
+</body>
+<script>
+    function closetabs() 
+    {
+        location.replace("index.php")
+    }
+</script>
+</html>
